@@ -1,0 +1,118 @@
+/* Estilos sencillos de estudiante */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h3 {
+    margin-top: 0;
+    color: #0056b3;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Tarjetas sencillas de resumen */
+.cajas-resumen {
+    display: flex;
+    gap: 15px;
+}
+
+.caja {
+    flex: 1;
+    background-color: #e9ecef;
+    padding: 15px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #d6d8db;
+}
+
+.caja p {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+}
+
+.caja b {
+    font-size: 20px;
+    color: #0056b3;
+}
+
+/* Formulario sencillo */
+form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    color: #666;
+}

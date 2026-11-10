@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCitas</title>
+    <!-- Asegúrate de que lleve la 's' final: styles.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Encabezado con menú simple arriba -->
+    <header>
+        <h1>MediCitas - Sistema de Citas</h1>
+        <nav>
+            <a href="#">Inicio</a> | 
+            <a href="#">Agendar Cita</a> | 
+            <a href="#">Especialidades</a> | 
+            <a href="#">Pacientes</a>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <!-- Resumen del día -->
+        <section class="resumen">
+            <h3>Resumen del Día</h3>
+            <div class="cajas-resumen">
+                <div class="caja">
+                    <p>Citas de hoy</p>
+                    <b>12</b>
+                </div>
+                <div class="caja">
+                    <p>Médicos activos</p>
+                    <b>5</b>
+                </div>
+                <div class="caja">
+                    <p>Pacientes nuevos</p>
+                    <b>8</b>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulario sencillo -->
+        <section class="formulario">
+            <h3>Registrar Nueva Cita</h3>
+            <form>
+                <label>DNI del Paciente:</label>
+                <input type="text" placeholder="Número de DNI" required>
+
+                <label>Especialidad:</label>
+                <select required>
+                    <option value="">-- Seleccionar --</option>
+                    <option value="1">Medicina General</option>
+                    <option value="2">Pediatría</option>
+                    <option value="3">Cardiología</option>
+                </select>
+
+                <label>Médico:</label>
+                <select required>
+                    <option value="">-- Seleccionar --</option>
+                    <option value="1">Dr. Juan Pérez</option>
+                    <option value="2">Dra. María Gómez</option>
+                </select>
+
+                <label>Fecha y Hora:</label>
+                <input type="datetime-local" required>
+
+                <button type="submit">Guardar Cita</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MediCitas - Control de consultorio</p>
+    </footer>
+
+</body>
+</html>
