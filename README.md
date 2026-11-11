@@ -1,2 +1,0 @@
-# ProyectoPro
-Proyecto de medico 
